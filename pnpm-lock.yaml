@@ -10,6 +10,7 @@ specifiers:
   eslint: ^8.34.0
   eslint-plugin-import: ^2.27.5
   eslint-plugin-svelte3: ^4.0.0
+  moment: ^2.29.4
   prettier: ^2.8.4
   prettier-plugin-svelte: ^2.9.0
   rollup: ^3.15.0
@@ -36,6 +37,7 @@ devDependencies:
   eslint: 8.34.0
   eslint-plugin-import: 2.27.5_eslint@8.34.0
   eslint-plugin-svelte3: 4.0.0_dbthnr4b2bdkhyiebwn7su3hnq
+  moment: 2.29.4
   prettier: 2.8.4
   prettier-plugin-svelte: 2.9.0_jrsxveqmsx2uadbqiuq74wlc4u
   rollup: 3.17.2
@@ -1379,6 +1381,10 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.8
+    dev: true
+
+  /moment/2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
     dev: true
 
   /mri/1.2.0:
