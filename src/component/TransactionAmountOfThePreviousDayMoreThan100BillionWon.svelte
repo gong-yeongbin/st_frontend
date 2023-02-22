@@ -8,7 +8,7 @@
 
 <h3>전일 거래대금 1000억 이상</h3>
 {#await datas}
-  <p>...No Data</p>
+  <p>...Wait</p>
 {:then datas}
   <ul>
     {#each datas as data}

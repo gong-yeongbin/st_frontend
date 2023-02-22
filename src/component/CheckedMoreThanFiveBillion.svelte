@@ -8,7 +8,7 @@
 
 <h3>50억 이상 채결(직전1분)</h3>
 {#await datas}
-  <p>...No Data</p>
+  <p>...Wait</p>
 {:then datas}
   <ul>
     {#each datas as data}

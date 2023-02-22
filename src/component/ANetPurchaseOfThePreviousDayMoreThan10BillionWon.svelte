@@ -8,7 +8,7 @@
 
 <h3>전일 순매수 100억이상 (매수 - 매도)</h3>
 {#await datas}
-  <p>...No Data</p>
+  <p>...Wait</p>
 {:then datas}
   <ul>
     {#each datas as data}

@@ -1,10 +1,10 @@
 <script lang="ts">
   import moment from 'moment';
-  import {onMount} from 'svelte';
+  import {beforeUpdate} from 'svelte';
 
-  let date;
+  let date = moment().format('YYYY년 MM월 DD일 HH:mm:ss');
 
-  onMount(() => {
+  beforeUpdate(() => {
     setInterval(() => {
       date = moment().format('YYYY년 MM월 DD일 HH:mm:ss');
     }, 1000);

@@ -8,7 +8,7 @@
 
 <h3>전일대비 15%이상(직전1분)</h3>
 {#await datas}
-  <p>...No Data</p>
+  <p>...Wait</p>
 {:then datas}
   <ul>
     {#each datas as data}
