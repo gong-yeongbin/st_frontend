@@ -1,11 +1,11 @@
-<script>
-  import CheckedMoreThanFiveBillion from './CheckedMoreThanFiveBillion.svelte';
-  import MoreThan15percentComparedToThePreviousDay from './MoreThan15percentComparedToThePreviousDay.svelte';
-  import ANetPurchaseOfThePreviousDayMoreThan10BillionWon from './ANetPurchaseOfThePreviousDayMoreThan10BillionWon.svelte';
-  import TransactionAmountOfThePreviousDayMoreThan100BillionWon from './TransactionAmountOfThePreviousDayMoreThan100BillionWon.svelte';
+<script lang="ts">
+  import TransactionAmountOfThePreviousDayMoreThan100BillionWon from './view/TransactionAmountOfThePreviousDayMoreThan100BillionWon.svelte';
+  import CheckedMoreThanFiveBillion from './view/CheckedMoreThanFiveBillion.svelte';
+  import MoreThan15percentComparedToThePreviousDay from './view/MoreThan15percentComparedToThePreviousDay.svelte';
+  import ANetPurchaseOfThePreviousDayMoreThan10BillionWon from './view/ANetPurchaseOfThePreviousDayMoreThan10BillionWon.svelte';
 </script>
 
+<TransactionAmountOfThePreviousDayMoreThan100BillionWon />
+<ANetPurchaseOfThePreviousDayMoreThan10BillionWon />
 <CheckedMoreThanFiveBillion />
 <MoreThan15percentComparedToThePreviousDay />
-<ANetPurchaseOfThePreviousDayMoreThan10BillionWon />
-<TransactionAmountOfThePreviousDayMoreThan100BillionWon />
