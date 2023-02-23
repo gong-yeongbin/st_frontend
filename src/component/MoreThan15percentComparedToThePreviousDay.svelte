@@ -1,9 +1,7 @@
 <script lang="ts">
-  import axios from 'axios';
+  import {moreThan15percentComparedToThePreviousDay} from '../store/stork';
 
-  $: datas = axios
-    .get('/st/moreThan15percentComparedToThePreviousDay')
-    .then(response => response.data);
+  $: datas = $moreThan15percentComparedToThePreviousDay;
 </script>
 
 <h3>전일대비 15%이상(직전1분)</h3>

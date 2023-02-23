@@ -1,9 +1,7 @@
 <script lang="ts">
-  import axios from 'axios';
+  import {aNetPurchaseOfThePreviousDayMoreThan10BillionWon} from '../store/stork';
 
-  $: datas = axios
-    .get('/st/aNetPurchaseOfThePreviousDayMoreThan10BillionWon')
-    .then(response => response.data);
+  $: datas = $aNetPurchaseOfThePreviousDayMoreThan10BillionWon;
 </script>
 
 <h3>전일 순매수 100억이상 (매수 - 매도)</h3>

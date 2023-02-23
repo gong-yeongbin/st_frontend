@@ -1,9 +1,7 @@
 <script lang="ts">
-  import axios from 'axios';
+  import {transactionAmountOfThePreviousDayMoreThan100BillionWon} from '../store/stork';
 
-  $: datas = axios
-    .get('/st/transactionAmountOfThePreviousDayMoreThan100BillionWon')
-    .then(response => response.data);
+  $: datas = $transactionAmountOfThePreviousDayMoreThan100BillionWon;
 </script>
 
 <h3>전일 거래대금 1000억 이상</h3>

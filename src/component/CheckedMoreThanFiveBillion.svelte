@@ -1,9 +1,7 @@
 <script lang="ts">
-  import axios from 'axios';
+  import {checkedMoreThanFiveBillion} from '../store/stork';
 
-  $: datas = axios
-    .get('/st/checkedMoreThanFiveBillion')
-    .then(response => response.data);
+  $: datas = $checkedMoreThanFiveBillion;
 </script>
 
 <h3>50억 이상 채결(직전1분)</h3>
