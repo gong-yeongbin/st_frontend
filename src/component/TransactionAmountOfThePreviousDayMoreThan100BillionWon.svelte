@@ -11,7 +11,7 @@
   <ul>
     {#each datas as data}
       <li style="list-style:none;">
-        종목코드 : {data.code} 전일거래대금 : {data.price.toLocaleString(
+        종목코드 : {data.code} 전일거래대금 : {data.c_accum_trans_price.toLocaleString(
           'ko-KR'
         )}
       </li>

@@ -11,7 +11,9 @@
   <ul>
     {#each datas as data}
       <li style="list-style:none;">
-        종목코드 : {data.code} 전일순매수 : {data.price.toLocaleString('ko-KR')}
+        종목코드 : {data.code} 전일순매수 : {data.b_price.toLocaleString(
+          'ko-KR'
+        )}
       </li>
     {/each}
   </ul>
