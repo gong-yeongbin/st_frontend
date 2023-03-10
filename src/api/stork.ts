@@ -24,3 +24,6 @@ export const getMoreThan15percentComparedToThePreviousDay = async () =>
   await axios
     .get('/st/moreThan15percentComparedToThePreviousDay')
     .then(response => response.data);
+
+export const getRsi = async () =>
+  await axios.get('/st/rsi').then(response => response.data);

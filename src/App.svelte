@@ -4,6 +4,7 @@
   import CheckedMoreThanFiveBillion from './component/CheckedMoreThanFiveBillion.svelte';
   import MoreThan15percentComparedToThePreviousDay from './component/MoreThan15percentComparedToThePreviousDay.svelte';
   import ANetPurchaseOfThePreviousDayMoreThan10BillionWon from './component/ANetPurchaseOfThePreviousDayMoreThan10BillionWon.svelte';
+  import Rsi from './component/Rsi.svelte';
 </script>
 
 <h2>{$now}</h2>
@@ -11,3 +12,4 @@
 <TransactionAmountOfThePreviousDayMoreThan100BillionWon />
 <CheckedMoreThanFiveBillion />
 <MoreThan15percentComparedToThePreviousDay />
+<Rsi />
